@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nooklit - 日記頁</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/test.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <a href="../template/index.html" class="logo"><img src="../img/logo.png" /></a>
+        <a href="#" class="nav_book"><img src="../img/nav.png" /></a>
+      </nav>
+
+      <div class="main">
+        <div class="left_nav">
+          <div class="head_shot">
+            <div class="photo"></div>
+            <h1>Name</h1>
+          </div>
+          <ul>
+            <li><a href="#">個人設定</a></li>
+            <li><a href="#">書籍總覽</a></li>
+            <li><a href="#">相片集</a></li>
+            <li><a href="#">使用教學</a></li>
+            <li><a href="#">書店</a></li>
+          </ul>
+        </div>
+
+        <!-- 翻書區域 -->
+        <div id="notebook">
+          <div id="cover" onclick="openNotebook()">
+            <div class="book-spine"></div>
+            <div class="front-text"><h1>Nooklit</h1></div>
+            <div class="back-text">
+              <h1>Vincent</h1>
+              <h2>的日記</h2>
+            </div>
+          </div>
+          <div class="content">
+            <div class="date">2024/11/11</div>
+            <div class="my_image"></div>
+            <textarea placeholder="在這裡寫下你的日記..."></textarea>
+            <input type="submit" value="保存" class="save" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/Java.JS"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </body>
+</html>

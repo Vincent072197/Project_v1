@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/login.css">
+  </head>
+  <body>
+    <div class="wrapper">
+    <nav>
+      <a href="../template/index.html" class="logo"><img src="../img/logo.png" ></a> 
+      <a href="#" class="nav_book"><img src="../img/nav.png"  ></a>
+     </nav>
+ 
+    <div class="main">
+    <div id="notebook">
+    <div id="cover" onclick="openNotebook()">
+      <div class="book-spine"></div>
+      <div class="front-text"><h1>Nooklit</h1></div>
+      <div class="back-text"><h1>歡迎加入</h1><h2>Nooklit</h2></div>
+    </div>
+    <div class="content">
+              <ul class="login">
+        <li><h1>Login in</h1></li>
+        <li><input type="text" placeholder="E-mail or Phone"  class="account"></li>
+       <li class="li_password"> <input type="password" placeholder="Password" id="password" > 
+        <span onclick="passWordShow()" class="show">Show</span>
+       </li>
+       <li ><input type="submit" value="Login in"  class="submit"></li>
+       <li><p class="or">or</p></li>
+       <li><a href="#" class="new_account">Create a new account</a></li>
+    </ul>
+    </div>
+  </div>
+  </div>
+
+
+
+
+    <script src="../js/Java.JS"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   
+  </body>
+</html>

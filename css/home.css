@@ -1,0 +1,290 @@
+@import url("./reset.css");
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+
+  
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Merriweather", serif;
+    background-color: f9f7f3;
+  
+  overflow-x: hidden;
+}
+
+    
+
+
+/* ----------------------- */
+
+#page1{
+    width:100%;
+    margin-top: 120px;
+    margin: 0 auto;
+    height: 100%;
+    
+
+    position: relative;
+    background-image: url(../img/Nooklit2.png);
+
+}
+
+.nav{  
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: rgba(77, 76, 76, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.5);
+    height: 60px;
+    width: 500px;
+}
+
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    gap: 60px;
+}
+
+.nav ul li{
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 60px;
+}
+
+#page1 #Title {
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}
+
+#page1 #Title h1{
+font-size: 11rem; 
+margin-bottom: 77px;
+
+}
+
+#page1 #Title h3{
+    margin-left:85px ;
+    font-size: 3.5rem;
+    line-height: 1.7;
+
+   }
+
+#page1 img{
+    display: block;
+    width: 500px;
+    position: absolute;
+    bottom: -548px;
+    right: 100px;
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.5);
+}
+
+/* ----------- */
+
+.bg{
+    width: 1200px;
+    border-radius: 30px;
+    height: 530px;
+    background-color: #f9f2e5;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+
+
+/* ------------ */
+
+#page2{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffffff; 
+    /* border-radius: 30px; */
+    position: relative;
+  
+}
+
+#page2 h2{
+    width: 540px;
+    height: 100%;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    font-size: 4.5rem;
+    line-height: 1.6;
+}
+
+#page2 h3{
+    position: absolute;
+    font-size: 3rem;
+    left: 170px;
+    top: 380px;
+
+}
+
+#page3 .KAFKA{
+    width: 500px;
+    position: absolute;
+    top: -153px;
+    left: -33px;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.5);
+}
+
+
+.pen_1{
+    position: absolute;
+    width: 967px;
+    top: 68px;
+    left: -150px;
+}
+
+
+#page3{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+}
+
+#page3 h2{
+    width: 540px;
+    height: 100%;
+    position: absolute;
+    top: 80px;
+    right: 90px;
+    font-size: 4.5rem;
+    line-height: 1.6;
+}
+
+#page3 h3{
+    position: absolute;
+    font-size: 3rem;
+    right: 170px;
+    top: 420px;
+
+}
+
+.pen_2{
+    position: absolute;
+    width: 1300px;
+    top: 10px;
+    right: -270px;
+    transform: scaleX(-1);
+}
+
+.bg3{
+    width: 1200px;
+    border-radius: 30px;
+    height: 560px;
+    background-color: #f9f2e5;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+
+/* ------------------------------ */
+
+
+#page4{
+    width: 1200px;
+    margin: 0 auto;
+    height: 85%;
+    background-color: #ffffff; 
+    /* border-radius: 30px; */
+    position: relative;
+  
+}
+
+#page4 h2{
+    width: 540px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    font-size: 4.5rem;
+    line-height: 1.6;
+}
+
+#page4 h3{
+    position: absolute;
+    font-size: 3rem;
+    left: 170px;
+    top: 380px;
+    line-height: 1.4;
+
+}
+
+#page4 .temple{
+    width: 500px;
+    position: absolute;
+    top: -160px;
+    right: -20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.bg4{
+    width: 1200px;
+    border-radius: 30px;
+    height: 530px;
+    background-color: #f9f2e5;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+
+
+.pen_3{
+    position: absolute;
+    width: 967px;
+    top: 107px;
+    left: -150px;
+}
+
+
+.main {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+
+.main div{
+
+   
+    background-color: #f9f2e5;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+.main div a{
+    width: 380px;
+    height: 100px;
+    text-decoration: none;
+    color: #190202;
+    font-size: 1.8rem;
+    line-height: 100px;
+    text-align: center;
+    display: block;
+
+}
